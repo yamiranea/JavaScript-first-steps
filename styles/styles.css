@@ -1,0 +1,36 @@
+body {
+    width: 80%;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    color: purple;
+}
+
+.sections {
+    display: flex;
+    justify-content: center;
+}
+
+.sections ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 70%;
+}
+
+.sections li {
+    list-style: none;
+    font-size: larger;
+}
+
+a {
+    text-decoration: none;
+    color: darkslateblue;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: x-large;
+}
