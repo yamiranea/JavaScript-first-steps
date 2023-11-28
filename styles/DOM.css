@@ -10,9 +10,10 @@
     height: 70px;
     padding-top:  30px;
     text-align: center;
+    margin-top: 30px;
 }
 
-button {
+#btn {
     width: 150px;
     height: 50px;
     border-radius: 20px;
@@ -21,7 +22,42 @@ button {
     border: 2px solid rgb(229, 92, 115);
 }
 
-#new-btn {
+#new-content {
+    background-color: rgb(216, 216, 255);
+    height: 70px;
+    padding-top: 30px;
+    text-align: center;
+    margin-top: 46px;
+}
+
+div#newBtn {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#showBtn, 
+#hideBtn {
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    margin-top: 20px;
+    border: 2px solid rgb(229, 92, 115);
+}
+
+#names-msg {
+    background-color: rgb(199, 238, 199);
+    height: 70px;
+    padding-top: 30px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.namesBtn {
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 45%;
+    border: 2px solid rgb(229, 92, 115);
 }
