@@ -39,9 +39,56 @@ let names = [
   " Estela",
   " Carla",
 ];
+console.log(names);
 
+// 5.
 document.getElementById("names-btn").addEventListener("click", function () {
   var namesMsg = document.getElementById("names-msg");
   namesMsg.style.display = "block";
   namesMsg.innerHTML = names;
 });
+
+// 6.
+let numbers = ["1", "2", "3", "4", "10", "11", "12", "13", "14"];
+console.log(numbers);
+
+// 7.
+document.getElementById("numbers-btn").addEventListener("click", function () {
+  var countNumbers = document.getElementById("numbers-msg");
+  countNumbers.innerHTML = numbers.length;
+});
+
+// 8.
+var form = document.createElement("form");
+form.setAttribute("id", "form");
+
+var textTag = document.createElement("label");
+textTag.textContent = "Name";
+
+var textInput = document.createElement("input");
+textInput.setAttribute("type", "text");
+textInput.setAttribute("name", "name");
+
+var emailTag = document.createElement("label");
+emailTag.textContent = "Email";
+
+var emailInput = document.createElement("input");
+emailInput.setAttribute("type", "email");
+emailInput.setAttribute("name", "email");
+
+var sendForm = document.createElement("button");
+sendForm.textContent = "Send Form";
+sendForm.setAttribute("type", "button");
+sendForm.addEventListener("click", function () {
+  alert("Your form has been sent!");
+});
+
+form.appendChild(textTag);
+form.appendChild(textInput);
+form.appendChild(document.createElement("br"));
+form.appendChild(emailTag);
+form.appendChild(emailInput);
+form.appendChild(document.createElement("br"));
+form.appendChild(sendForm);
+
+document.body.appendChild(form);

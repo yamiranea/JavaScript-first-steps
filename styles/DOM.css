@@ -30,10 +30,12 @@
     margin-top: 46px;
 }
 
-div#newBtn {
+#new-btn {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    padding-left: 229px;
+    padding-right: 205px;
 }
 
 #showBtn, 
@@ -53,7 +55,24 @@ div#newBtn {
     margin-top: 30px;
 }
 
-.namesBtn {
+#names-btn {
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 45%;
+    border: 2px solid rgb(229, 92, 115);
+}
+
+#numbers-msg {
+    background-color: rgb(245, 221, 177);
+    height: 70px;
+    padding-top: 30px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#numbers-btn {
     width: 150px;
     height: 50px;
     border-radius: 20px;
