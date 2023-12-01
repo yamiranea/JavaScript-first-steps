@@ -4,3 +4,79 @@
     color: #de2243;
     text-decoration: underline;
 }
+
+#message {
+    background-color: rgb(201, 201, 201);
+    height: 70px;
+    padding-top:  30px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#btn {
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 45%;
+    border: 2px solid rgb(229, 92, 115);
+}
+
+#new-content {
+    background-color: rgb(216, 216, 255);
+    height: 70px;
+    padding-top: 30px;
+    text-align: center;
+    margin-top: 46px;
+}
+
+#new-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-left: 229px;
+    padding-right: 205px;
+}
+
+#showBtn, 
+#hideBtn {
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    margin-top: 20px;
+    border: 2px solid rgb(229, 92, 115);
+}
+
+#names-msg {
+    background-color: rgb(199, 238, 199);
+    height: 70px;
+    padding-top: 30px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#names-btn {
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 45%;
+    border: 2px solid rgb(229, 92, 115);
+}
+
+#numbers-msg {
+    background-color: rgb(245, 221, 177);
+    height: 70px;
+    padding-top: 30px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#numbers-btn {
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 45%;
+    border: 2px solid rgb(229, 92, 115);
+}

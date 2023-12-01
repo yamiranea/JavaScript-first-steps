@@ -9,11 +9,17 @@ greeting("Paola");
 // 2.
 function additionOperation(number1, number2) {
   let add = number1 + number2;
-  document.write(`If we add ${number1}, + ${number2} the result is ${add}<br>`);
+  document.write(`If we add ${number1} + ${number2} the result is ${add}<br>`);
   console.log(`If we add ${number1} + ${number2} the result is ${add}`);
 }
 
 additionOperation(1, 10);
+
+// otra manera punto 2
+// function sumar (a, b) {
+//  return a + b;
+//}
+//(sumar(8,9);
 
 // 3.
 var number = 7;
